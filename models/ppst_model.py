@@ -8,7 +8,7 @@ import torch.nn.functional as F
 from models import BaseModel
 import models.networks as networks
 import models.networks.loss as loss
-from models.networks.patchnce_bank2 import PatchNCELoss
+from models.networks.rscl import rsclLoss
 from torchvision import models,transforms
 from PIL import Image
 
@@ -46,7 +46,7 @@ class PPSTModel(BaseModel):
         )
         self.l1_loss = torch.nn.L1Loss()
         self.loss_fn_alex = lpips.LPIPS(net='alex')
-        self.criterionNCE = PatchNCELoss(self.opt)
+        self.criterionNCE = rsclLoss(self.opt)
         if (not self.opt.isTrain) or self.opt.continue_train:
             self.load()
         if self.opt.num_gpus > 0:
