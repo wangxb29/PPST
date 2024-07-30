@@ -24,7 +24,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port='29501' test
 --input_texture_image /path/to/your/style/image \
 --texture_mix_alpha 1.0
 ```
-To perform style transfer between image folders, please set the ```dataroot``` and ```checkpoints_dir``` path in ```./experiments/xx_pretrained_launcher.py```, and put the content image dir and style image dir in ```dataroot```, then run
+To perform style transfer between image folders, please set the ```dataroot``` and ```checkpoints_dir``` path in ```./experiments/CelebA_launcher.py```, and put the content image dir and style image dir in ```dataroot```, then run
 ``` python
 python -m experiments CelebA test swapping_grid
 ``` 
