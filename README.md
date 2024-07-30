@@ -14,6 +14,7 @@ pip install -r requirements.txt
 python -m experiments CelebA train CelebAMaskHQ_default
 ```
 ## Testing
+To perform style transfer between two given images, run
 ``` python
 python -m torch.distributed.launch --nproc_per_node=1 --master_port='29501' test.py \
 --evaluation_metrics simple_swapping \
@@ -23,3 +24,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port='29501' test
 --input_texture_image /path/to/your/style/image \
 --texture_mix_alpha 1.0
 ```
+To perform style transfer between two image folders, please set the ``` python dataroot``` and ```python checkpoints_dir```, run
+``` python
+python -m experiments CelebA test swapping_grid
+``` 
