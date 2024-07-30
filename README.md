@@ -9,9 +9,10 @@ conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=
 pip install -r requirements.txt
 ```
 ## Set up dataset
-Please download [CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) dataset. Then prcessing the mask 
+Please download [CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) dataset. Then run ```g_mask.py``` to aggregation the 19 catrgories. 
 
 ## Training
+Please set the ```dataroot``` path as your image path and ```dataroot2``` path to your mask path in ```./experiments/CelebA_launcher.py```, and run
 ``` python
 python -m experiments CelebA train CelebAMaskHQ_default
 ```
