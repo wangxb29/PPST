@@ -10,4 +10,7 @@ pip install -r requirements.txt
 ```
 ## Set up dataset
 ## Training
+``` python
+python -m experiments CelebA train CelebAMaskHQ_default
+```
 ## Testing
