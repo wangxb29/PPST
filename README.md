@@ -14,3 +14,12 @@ pip install -r requirements.txt
 python -m experiments CelebA train CelebAMaskHQ_default
 ```
 ## Testing
+``` python
+python -m torch.distributed.launch --nproc_per_node=1 --master_port='29501' test.py \
+--evaluation_metrics simple_swapping \
+--preprocess scale_shortside --load_size 512 \
+--name CelebAMaskHQ_default \
+--input_structure_image /path/to/your/content/image \
+--input_texture_image /path/to/your/style/image \
+--texture_mix_alpha 1.0
+```
