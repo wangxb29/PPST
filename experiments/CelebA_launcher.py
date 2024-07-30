@@ -20,7 +20,7 @@ class Launcher(TmuxLauncher):
 
         return [
             opt.specify(
-                name="CelebAMaskHQ_selfatt",
+                name="CelebAMaskHQ_default",
                 model="ppst",
                 optimizer="ppst",
             ),
