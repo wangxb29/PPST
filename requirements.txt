@@ -2,11 +2,17 @@ albumentations==1.4.10
 cupy_cuda11x==12.2.0
 dominate==2.8.0
 func_timeout==4.3.5
+GPUtil==1.4.0
 lmdb==1.4.1
 lpips==0.1.4
 numpy==2.0.1
 opencv_contrib_python==4.8.1.78
 opencv_python==4.8.1.78
 opencv_python_headless==4.10.0.84
+packaging==24.1
+Pillow==10.4.0
+plotter==1.3.20
 pynvrtc==9.2
+scikit_learn==1.5.1
+training==0.0.1
 visdom==0.2.4
