@@ -19,7 +19,7 @@ python -m experiments CelebA train CelebAMaskHQ_default
 Pretrained model can be downloaded at this [link](https://pan.baidu.com/s/1i3He-7MlacvkoArS7V3wxg?pwd=ltyh).
 
 ## Testing
-To perform style transfer between two given images, run
+To perform style transfer between two given images, you can put the pretrained model in ```./checkpoints/CelebAMaskHQ_default/`` and run 
 ``` python
 python -m torch.distributed.launch --nproc_per_node=1 --master_port='29501' test.py \
 --evaluation_metrics simple_swapping \
