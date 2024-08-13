@@ -16,6 +16,8 @@ Please set the ```dataroot``` path as your image path and ```dataroot2``` path t
 ``` python
 python -m experiments CelebA train CelebAMaskHQ_default
 ```
+Pretrained model can be downloaded at this [link](https://pan.baidu.com/s/1i3He-7MlacvkoArS7V3wxg?pwd=ltyh).
+
 ## Testing
 To perform style transfer between two given images, run
 ``` python
