@@ -1,4 +1,4 @@
-# PPST ： Towards Photorealistic Portrait Style Transfer <br/> in Unconstrained Conditions
+# PPST: Towards Photorealistic Portrait Style Transfer <br/> in Unconstrained Conditions
 ## Installation
 Set up the python environment
 ``` python
