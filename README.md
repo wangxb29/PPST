@@ -32,4 +32,20 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port='29501' test
 To perform style transfer between image folders, please set the ```dataroot``` and ```checkpoints_dir``` path in ```./experiments/CelebA_launcher.py```, and put the content image dir and style image dir in ```dataroot```, then run
 ``` python
 python -m experiments CelebA test swapping_grid
-``` 
+```
+
+## Citation
+If you find our work helpful for your research, please consider citing our paper.
+``` python
+@article{article,
+author = {Wang, Xinbo and Zhang, Qing and Nie, Yongwei and Zheng, Wei-Shi},
+year = {2025},
+month = {01},
+pages = {1-14},
+title = {Towards Photorealistic Portrait Style Transfer in Unconstrained Conditions},
+volume = {PP},
+journal = {IEEE Transactions on Visualization and Computer Graphics},
+doi = {10.1109/TVCG.2025.3529751}
+}
+```
+
