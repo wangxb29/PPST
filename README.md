@@ -37,15 +37,15 @@ python -m experiments CelebA test swapping_grid
 ## Citation
 If you find our work helpful for your research, please consider citing our paper.
 ``` python
-@article{article,
-author = {Wang, Xinbo and Zhang, Qing and Nie, Yongwei and Zheng, Wei-Shi},
-year = {2025},
-month = {01},
-pages = {1-14},
-title = {Towards Photorealistic Portrait Style Transfer in Unconstrained Conditions},
-volume = {PP},
-journal = {IEEE Transactions on Visualization and Computer Graphics},
-doi = {10.1109/TVCG.2025.3529751}
+@article{wang2025ppst,
+  author = {Wang, Xinbo and Zhang, Qing and Nie, Yongwei and Zheng, Wei-Shi},
+  year = {2025},
+  month = {01},
+  pages = {1-14},
+  title = {Towards Photorealistic Portrait Style Transfer in Unconstrained Conditions},
+  volume = {PP},
+  journal = {IEEE Transactions on Visualization and Computer Graphics},
+  doi = {10.1109/TVCG.2025.3529751}
 }
 ```
 
