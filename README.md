@@ -16,7 +16,7 @@ Please set the ```dataroot``` path as your image path and ```dataroot2``` path t
 ``` python
 python -m experiments CelebA train CelebAMaskHQ_default
 ```
-Pretrained model can be downloaded at this [link](https://pan.baidu.com/s/1i3He-7MlacvkoArS7V3wxg?pwd=ltyh).
+Pretrained model can be downloaded from [Google Drive](https://drive.google.com/file/d/1aP93UpP9xVCdfi2iGM4Du0gZae0XFPMQ/view?usp=drive_link).
 
 ## Testing
 To perform style transfer between two given images, you can put the pretrained model in ```./checkpoints/CelebAMaskHQ_default/`` and run 
